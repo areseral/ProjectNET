@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Projekt.NET.Site1" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Rybak corporation industries entertaiment</a></h1>
+			<p><a>Ogłoszenia lokalne zupełnie za darmo tylko na RybakCorporationIndustriesEntertaiment.pl</a></p>
+		</div>
+	</div>
+</div>
+<div id="wrapper"> 
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="sidebar">
+					<ul>
+                        <li>
+                            <h2>User Panel</h2>
+
+                            <form>
+                            <b>Login:</b>
+                            <input type="text" required="required" class="logintxtbox"/>
+                            <b>Password:</b>
+                            <input type="password" required="required" class="logintxtbox"/>
+
+                            <input type="submit" value="Login" class="loginbutton"/>
+                            <input type="submit" value="Rejestracja" class="loginbutton"/>
+                            </form>
+
+                            <!-- <li><a href="Rejestracja.aspx">Załóż profil</a></li>
+                                <li><a href="EditProfile.aspx">Edytuj profil</a></li>
+                                <li><a href="Zarzadzaj.aspx">Zarzadzaj ogłoszeniami</a></li>
+                                <li><a href="DodajOgloszenie.aspx">Dodaj nowe ogłoszenie</a></li> -->
+						</li>
+
+						<li>
+                            <br />
+							<h2>Kategorie</h2>
+							<ul>
+								<li><a href="#">Fajne</a></li>
+								<li><a href="#">Kategorie</a></li>
+								<li><a href="#">Dla</a></li>
+								<li><a href="#">Rybaka</a></li>
+								<li><a href="#">Pozdrawiam</a></li>
+								<li><a href="#">Kocham</a></li>
+								<li><a href="#">Cie</a></li>
+								<li><a href="#">Buśśśśkaaa</a></li>
+								<li><a href="#">:***</a></li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div id="content">
+                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                      </asp:ContentPlaceHolder>					
+				</div>
+		
+			</div>
+		</div>
+	</div>
+
+</div>
+<div id="footer">
+	<p>&copy; 2013 Sitename.com. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
+
+
